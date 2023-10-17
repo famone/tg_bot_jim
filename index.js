@@ -14,6 +14,10 @@ bot.command('start', (ctx) => {
     // }
 })
 
+bot.command('help', (ctx) => {
+    ctx.replyWithHTML('+79643844354 - <b>Тинькофф</b>(Константин Т)')
+})
+
 // bot.action('one', (ctx) => {
 //     ctx.reply('Вы нажали на 1-ю кнопку')
 // })
