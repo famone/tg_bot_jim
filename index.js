@@ -15,7 +15,7 @@ bot.command('start', (ctx) => {
 })
 
 bot.command('help', (ctx) => {
-    ctx.replyWithHTML('+79643844354 - <b>Тинькофф</b>(Константин Т)')
+    ctx.replyWithHTML('+79643843454 - <b>Тинькофф</b>(Константин Т)')
 })
 
 // bot.action('one', (ctx) => {
