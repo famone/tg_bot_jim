@@ -46,7 +46,9 @@ bot.action('success', (ctx) => {
     }else{
         const weight = savedInStore.val[0]
         const repeats = savedInStore.val[1]
-        const total = (-1.89 ) + (1.16 * weight) + (1.68 * repeats)
+        // const total = (-1.89 ) + (1.16 * weight) + (1.68 * repeats)
+        const total = (weight * repeats * 0.0333) + weight
+        // (100 * 5 * 0,0333) + 100
         const idx = mainResult.indexOf(savedInStore)
         ctx.reply(`На раз ты пожмешь ${parseFloat(total).toFixed(1)}кг`)
         mainResult.splice(idx, 1)
